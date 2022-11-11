@@ -20,6 +20,8 @@ Code submission for Project - Story Generation using Scene Graphs, Term Project 
 1. For just caption generation, run `bash test.sh Sub_GC_MRNN` and `bash test.sh Sub_GC_Flickr`
 2. For full inference, follow the jupyter notebook  `StoryGen/demo.ipynb`
 
+#### Also check out our presentation on this topic - [Link](https://github.com/Debjoy10/Sub-GStory/blob/master/Story%20Generation%20from%20Scene%20Graphs%20PPT.pdf) (Also uploaded in this repository)
+
 ## Contributors
 1. Debjoy Saha
 2. Shubhesh Anand
