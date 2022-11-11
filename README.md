@@ -6,9 +6,19 @@ Code submission for Project - Story Generation using Scene Graphs, Term Project 
 > Please find story generation code (training + demo) in `StoryGen/`
 
 ## Running the Demo
-1. Install pretrained models and some additional dependencies using - 
-```bash download_pretrained.sh```
+1. Install pretrained models and caption generations. 
+> Download `https://drive.google.com/file/d/1dL9LQRjLqs_jhb8k5h2XMHO7h-NqpBDn/view?usp=sharing` and unzip inside `pretrained/`
+> Download `https://drive.google.com/file/d/1taV1acf1XmW1x0BjY1zYStqHKwTKbk3d/view?usp=sharing` and unzip inside `StoryGen/`
+
 2. Run self-explanatory ipynb - `StoryGen/demo.ipynb`
+
+## Training
+1. For Sub-GC model training for COCO and Flickr datasets, run `bash train.sh Sub_GC_MRNN` and `bash train.sh Sub_GC_Flickr`
+2. For C2S-LM model training, follow the jupyter notebook `StoryGen/seq2seq_train.ipynb`
+
+## Inference
+1. For just caption generation, run `bash test.sh Sub_GC_MRNN` and `bash test.sh Sub_GC_Flickr`
+2. For full inference, follow the jupyter notebook  `StoryGen/demo.ipynb`
 
 ## Contributors
 1. Debjoy Saha
