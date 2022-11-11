@@ -106,3 +106,7 @@ ENV/
 
 # mypy
 .mypy_cache/
+pretrained/sub_gc_MRNN/
+pretrained/sub_gc_flickr/
+pretrained/sub_gc_preds.zip
+StoryGen/pretrained*
