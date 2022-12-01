@@ -1,6 +1,8 @@
 # Sub-GStory
 Code submission for Project - Story Generation using Scene Graphs, Term Project for Graph Machine Learning Foundations and Application (AI60007), 2022 Autumn, IIT Kharagpur
 
+(Code adapted from [This repository](https://github.com/YiwuZhong/Sub-GC))
+
 > Install Dependencies and Data as instructed in SUBGC_README.md
 
 > Please find story generation code (training + demo) in `StoryGen/`
